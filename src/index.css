@@ -1,0 +1,59 @@
+@import "tailwindcss";
+@import "lenis/dist/lenis.css";
+
+@layer base {
+  :root {
+    --bg-main: #111215;
+    --bg-card: #17191f;
+    --bg-elevated: #1f222a;
+    --border-subtle: #292d37;
+    --text-primary: #ededee;
+    --text-secondary: #9da3af;
+    --text-muted: #646a78;
+  }
+}
+
+.font-serif-calligraphic {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-neo {
+  font-family: 'Syne', -apple-system, sans-serif;
+}
+
+.font-sans-clean {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', Georgia, serif;
+}
+
+/* Subtle architectural grain / monochrome depth without AI fluff */
+body {
+  background-color: #111215;
+  color: #ededee;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+html {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+/* Hide scrollbars completely while keeping full scroll functionality */
+* {
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+
+*::-webkit-scrollbar,
+::-webkit-scrollbar {
+  display: none !important;
+  width: 0px !important;
+  height: 0px !important;
+}
+

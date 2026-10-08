@@ -1,0 +1,8 @@
+{
+  "name": "The Two Guys Hairdesign",
+  "description": "The Two Guys hairdesign - Σύγχρονο Barber \u0026 Hairdesign στα Ιωάννινα (Καρδαμίτσια 24). Ακρίβεια, αισθητική και προσωποποιημένη ανδρική περιποίηση.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
